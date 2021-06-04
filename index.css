@@ -142,9 +142,15 @@ footer {
   background-color: black;
   padding: 50px;
 }
+footer .first-section {
+  display: flex;
+  justify-content: space-between;
+}
 footer .first-part {
   display: flex;
-  background-color: #1ed760;
+  justify-content: space-between;
+  width: 530px;
+  /* background-color: #1ed760; */
 }
 footer .logo {
   height: 40px;
@@ -162,7 +168,7 @@ footer .list {
   /* text-align: start; */
   display: flex;
   flex-direction: column;
-  justify-content: cent;
+  padding-top: 20px;
 }
 footer ul {
   list-style: none;
@@ -177,4 +183,22 @@ footer .list a {
 }
 footer .list a:hover {
   color: #1ed760;
+}
+footer .second-part {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+footer .social {
+  border-radius: 50%;
+  background-color: #222326;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .social img {
+  width: 24px;
+  height: 24px;
 }
